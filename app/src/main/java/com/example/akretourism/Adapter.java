@@ -10,13 +10,12 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.RecyclerVH> {
-
     Context c;
     String[] names;
     String[] desc;
     int[] res;
 
-    public Adapter(Context c, String[] names,String[] desc,int[] res) {
+    public Adapter(Context c, String[] names, String[] desc, int[] res) {
         this.c = c;
         this.names = names;
         this.desc = desc;
@@ -31,9 +30,9 @@ public class Adapter extends RecyclerView.Adapter<Adapter.RecyclerVH> {
 
     @Override
     public void onBindViewHolder(RecyclerVH holder, int position) {
-       holder.nameTxt.setText(names[position]);
-       holder.descTxt.setText(desc[position]);
-       holder.descTxt.setBackgroundResource(res[position]);
+        holder.nameTxt.setText(names[position]);
+        holder.descTxt.setText(desc[position]);
+        holder.imageIV.setImageResource(res[position]);
     }
 
     @Override
@@ -48,6 +47,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.RecyclerVH> {
         TextView nameTxt;
         TextView descTxt;
         ImageView imageIV;
+
         public RecyclerVH(View itemView) {
             super(itemView);
             nameTxt = (TextView) itemView.findViewById(R.id.name_item);

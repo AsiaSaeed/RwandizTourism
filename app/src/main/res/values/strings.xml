@@ -14,28 +14,5 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="rwanduz_desc">Rawandiz is a city in Kurdistan Region, located in Erbil Governorate, close to the borders with Iran and Turkey, it is located 10 km to the east from Bekhal Waterfall. The district is 123 km from Erbil.</string>
-    <string-array name="hotel_names">
-        <item>Korek</item>
-        <item>Korek</item>
-        <item>Korek</item>
-        <item>Korek</item>
-        <item>Korek</item>
-        <item>Korek</item>
-    </string-array>
-    <string-array name="resturant_names">
-        <item>Korek</item>
-        <item>Korek</item>
-        <item>Korek</item>
-        <item>Korek</item>
-        <item>Korek</item>
-        <item>Korek</item>
-    </string-array>
-    <string-array name="place_names">
-        <item>Korek</item>
-        <item>Korek</item>
-        <item>Korek</item>
-        <item>Korek</item>
-        <item>Korek</item>
-        <item>Korek</item>
-    </string-array>
+
 </resources>
