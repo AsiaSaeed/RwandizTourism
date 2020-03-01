@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.akretourism.ui.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/hotel"
+        android:name="com.example.akretourism.ui.hotel.HotelFragment"
+        android:label="@string/hotel"
+        tools:layout="@layout/fragment_hotel" />
+
+    <fragment
+        android:id="@+id/restaurant"
+        android:name="com.example.akretourism.ui.restaurant.RestaurantFragment"
+        android:label="@string/restaurant"
+        tools:layout="@layout/fragment_restaurant" />
+
+    <fragment
+        android:id="@+id/places"
+        android:name="com.example.akretourism.ui.places.PlacesFragment"
+        android:label="@string/places_to_visit"
+        tools:layout="@layout/fragment_places" />
+
+    <fragment
+        android:id="@+id/about"
+        android:name="com.example.akretourism.ui.About.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about" />
+</navigation>
