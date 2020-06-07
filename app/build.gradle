@@ -5,11 +5,12 @@ android {
     buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "com.example.akretourism"
-        minSdkVersion 15
+        minSdkVersion 17
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        resConfigs "en", "ku"
     }
     buildTypes {
         release {

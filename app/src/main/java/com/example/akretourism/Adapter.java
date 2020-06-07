@@ -12,13 +12,13 @@ import androidx.recyclerview.widget.RecyclerView;
 public class Adapter extends RecyclerView.Adapter<Adapter.RecyclerVH> {
     Context c;
     String[] names;
-    String[] desc;
+    String[] number;
     int[] res;
 
-    public Adapter(Context c, String[] names, String[] desc, int[] res) {
+    public Adapter(Context c, String[] names, String[] number, int[] res) {
         this.c = c;
         this.names = names;
-        this.desc = desc;
+        this.number = number;
         this.res = res;
     }
 
@@ -31,7 +31,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.RecyclerVH> {
     @Override
     public void onBindViewHolder(RecyclerVH holder, int position) {
         holder.nameTxt.setText(names[position]);
-        holder.descTxt.setText(desc[position]);
+        holder.numberTxt.setText(number[position]);
         holder.imageIV.setImageResource(res[position]);
     }
 
@@ -45,13 +45,13 @@ public class Adapter extends RecyclerView.Adapter<Adapter.RecyclerVH> {
      */
     public class RecyclerVH extends RecyclerView.ViewHolder {
         TextView nameTxt;
-        TextView descTxt;
+        TextView numberTxt;
         ImageView imageIV;
 
         public RecyclerVH(View itemView) {
             super(itemView);
             nameTxt = (TextView) itemView.findViewById(R.id.name_item);
-            descTxt = (TextView) itemView.findViewById(R.id.desc_item);
+            numberTxt = (TextView) itemView.findViewById(R.id.desc_item);
             imageIV = (ImageView) itemView.findViewById(R.id.item_iv);
         }
     }

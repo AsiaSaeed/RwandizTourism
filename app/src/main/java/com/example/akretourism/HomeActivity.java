@@ -1,12 +1,16 @@
 package com.example.akretourism;
 
+import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
+import android.view.MenuItem;
 import android.view.View;
 
+import androidx.annotation.NonNull;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -20,8 +24,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
+import android.widget.Toast;
+
+import java.util.Locale;
 
 public class HomeActivity extends AppCompatActivity {
+    String languageToLoad = "en";
 
     private AppBarConfiguration mAppBarConfiguration;
 
@@ -43,6 +51,8 @@ public class HomeActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
+
     }
 
     @Override
@@ -52,6 +62,35 @@ public class HomeActivity extends AppCompatActivity {
         return true;
     }
 
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        // here is th
+
+
+        switch (item.getItemId()) {
+            case R.id.english:
+                languageToLoad = "en";
+                changeLanguage(languageToLoad);
+                break;
+            case R.id.kurdish:
+                languageToLoad = "ku";
+                changeLanguage(languageToLoad);
+                break;
+        }
+
+        return super.onOptionsItemSelected(item);
+
+    }
+    private void changeLanguage(String language){
+        Locale locale = new Locale(languageToLoad);
+        Locale.setDefault(locale);
+        Configuration config = new Configuration();
+        config.locale= locale;
+        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+        Intent intent = new Intent(HomeActivity.this, HomeActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+    }
     @Override
     public boolean onSupportNavigateUp() {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);

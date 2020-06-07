@@ -7,12 +7,80 @@
     <string name="places_to_visit">Places To Visit</string>
     <string name="language">Language</string>
     <string name="about">About</string>
-    <string name="title_activity_home">HomeActivity</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_home" translatable="false">HomeActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <string name="rwanduz_desc">Rawandiz is a city in Kurdistan Region, located in Erbil Governorate, close to the borders with Iran and Turkey, it is located 10 km to the east from Bekhal Waterfall. The district is 123 km from Erbil.</string>
+    <string name="rwanduz_desc">Rwandez became the governor of the Othman Empire in 1890, became the town in 1923, and became the first governor of the province (Saeed Taha). It was opened in 1980 by the Baathist decision to the city (district), It was reopened in 2008 by a decision of the regional government, which now has 26 townships and district administrations and administrations. The total population of Rwanda is 35,000 and the population of the city center is 15,000. Across the border, more and more people are pioneering and doing agricultural and livestock work, and some are government officials.</string>
+    <string name="about_us">we are a sowftware team that are intrested in creating applications and there was a gap in tourism we thought an application would be a sloution for that to show Rwandiz\'s places resturants and hotels for a visitor.</string>
+    <string name="writemailfeedback">Write your feedback</string>
+    <string name="send">Send</string>
+    <string name="english">English</string>
+    <string name="kurdish">Kurdish</string>
+    <string-array name="hotel_names">
+        <item>Bekhal</item>
+        <item>Korek</item>
+        <item>Megry</item>
+        <item>Kani</item>
+        <item>Hawary gashtyari</item>
+        <item>Pasha</item>
+        <item>Qalay Rwandiz</item>
+        <item>Lawyn</item>
+        <item>Mazyar</item>
+        <item>Khanda</item>
+        <item>Shayan</item>
+    </string-array>
+    <string-array name="hotel_numbers">
+        <item>07504749188</item>
+        <item></item>
+        <item>07504660491</item>
+        <item></item>
+        <item>07504451723</item>
+        <item>07504492401</item>
+        <item>07504561680</item>
+        <item>07504787138</item>
+        <item>07504749188</item>
+        <item>07504523435</item>
+        <item>07504489515</item>
+    </string-array>
+    <string-array name="resturant_names">
+        <item>Bekhal</item>
+        <item>Korek</item>
+        <item>Megry</item>
+        <item>Kani</item>
+        <item>Hawary gashtyari</item>
+        <item>Lawen</item>
+        <item>Abu Abddullahi Gashtyari</item>
+        <item>Chwar chli Taybatyi Rwandiz</item>
+        <item>Beshwk</item>
+    </string-array>
+    <string-array name="resturant_numbers">
+        <item>07504749188</item>
+        <item></item>
+        <item>07504660491</item>
+        <item></item>
+        <item>07504451723</item>
+        <item>07504787138</item>
+        <item>07504749188</item>
+        <item>07504473421</item>
+        <item>07504603844</item>
+    </string-array>
+    <string-array name="places_to_visit">
+        <item>Bekhal</item>
+        <item>Komalgay Koreki Gashtyari</item>
+        <item>Hawargay Panki Gashtyari</item>
+        <item>Sayrangay KAprakany Barsin</item>
+        <item>Sayranga w Kaprakany Nahyai Warte</item>
+
+    </string-array>
+    <string-array name="places_desc">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
 
 </resources>

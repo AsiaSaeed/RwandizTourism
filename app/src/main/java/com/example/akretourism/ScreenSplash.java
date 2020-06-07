@@ -21,6 +21,6 @@ public class ScreenSplash extends AppCompatActivity {
                 Intent intent=new Intent(ScreenSplash.this, HomeActivity.class);
                 startActivity(intent);
             }
-        },4000);
+        },3000);
     }
 }

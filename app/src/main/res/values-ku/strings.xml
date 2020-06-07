@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ڕواندز</string>
+    <string name="welcome">بەخێربێن</string>
+    <string name="home">ماڵەوە</string>
+    <string name="hotel">هۆتێل</string>
+    <string name="restaurant">خواردنگە</string>
+    <string name="places_to_visit">شوێنی سەردانکردن</string>
+    <string name="language">زمان</string>
+    <string name="about">دەربارە</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">ڕێکخستن</string>
+    <string name="rwanduz_desc">رواندز له‌ ساڵى 1890 له‌ سه‌رده‌مى عوسمانییه‌كان پارێزگا بووه‌، له‌ ساڵى 1923 بووه‌ته‌ شارۆچكه‌ (قەزا)و یه‌كه‌م قایمقامى به‌ناوى (سه‌ید ته‌ها) بووه‌، له‌ ساڵى 1980 به‌ بڕیارى به‌عس كراوه‌ته‌ شاره‌دێ(ناحیە)، ساڵى 2008 جارێكی تر به‌ بڕیارى حكوومه‌تى هه‌رێم كراوه‌ته‌وه‌ شارۆچكه‌ (قەزا)و ئێستا‌ 26 فه‌رمانگه‌ و به‌ڕێوه‌به‌رایه‌تیى حكوومى تیادا هه‌ن.   رێژه‌ى دانیشتووانى رواندز به‌ گشتى 35 هه‌زاره‌ و دانیشتوانى ناوه‌ندى شارۆكه‌ 15 هه‌زار كه‌سه‌، له‌ ته‌واوى سنووره‌كه‌ دانیشتووان زیاتر پێشمه‌رگه‌ن و كارى كشتوكاڵى و ئاژه‌ڵدارى ده‌كه‌ن، به‌شێكیش فه‌رمانبه‌رى حكوومین.</string>
+    <string name="about_us">ئێمە تیمێکی سۆفتوێرین کە حەز بە کاری بەرنامە دروستکردنی مۆبایل دەکەین هەستمان بە هەبونی بۆشاییەک کرد لە گەشتیاری وا بەرمان کردەوە دروستکردنی بەرنامەیەکی مۆبایل بۆ ئەم کێشەیە چارەسەرەێکی باش دەبێت. </string>
+    <string name="writemailfeedback">پێشینیارت بنوسە</string>
+    <string name="send">بنێرە</string>
+    <string name="english">ئینگلیزی</string>
+    <string name="kurdish">کوردی</string>
+    <string-array name="hotel_names">
+        <item>موتێل بێخاڵ </item>
+        <item>چیای کۆره‌ک</item>
+        <item>موتێل مێگری</item>
+        <item>موتێل کانی</item>
+        <item>موتێل هه‌واری گه‌شتیاری</item>
+        <item>موتێل پاشا</item>
+        <item>موتێل قه‌ڵای رواندز</item>
+        <item>موتێل لاوین</item>
+        <item>هوتێل مازیار</item>
+        <item>موتێل خه‌نده‌ </item>
+        <item>موتێل شایان</item>
+    </string-array>
+    <string-array name="hotel_numbers">
+        <item>07504749188</item>
+        <item></item>
+        <item>07504660491</item>
+        <item></item>
+        <item>07504451723</item>
+        <item>07504492401</item>
+        <item>07504561680</item>
+        <item>07504787138</item>
+        <item>07504749188</item>
+        <item>07504523435</item>
+        <item>07504489515</item>
+    </string-array>
+    <string-array name="resturant_names">
+        <item>چێشتخانه‌ی بێخاڵ</item>
+        <item>چیای کۆرەک‌</item>
+        <item>چێشتخانه‌ی مێگری </item>
+        <item>چێشتخانه‌ی کانی</item>
+        <item>چێشتخانه‌ی هه‌واری گه‌شتیاری</item>
+        <item>چێشتخانه‌ی لاوین </item>
+        <item>چێشتخانه‌ی ابوعبدلله‌ی گه‌شتیاری</item>
+        <item>چێشتخانه‌ی چوار چوار چل تایبه‌تی رواندز</item>
+        <item>چێشتخانه‌ی بیشوک(ماسی)</item>
+    </string-array>
+    <string-array name="resturant_numbers">
+        <item>07504749188</item>
+        <item></item>
+        <item>07504660491</item>
+        <item></item>
+        <item>07504451723</item>
+        <item>07504787138</item>
+        <item>07504749188</item>
+        <item>07504473421</item>
+        <item>07504603844</item>
+    </string-array>
+    <string-array name="places_to_visit">
+        <item>هاوینه‌ هه‌واری بێخال</item>
+        <item>کۆمه‌لگای کۆره‌کی گه‌شتیاری(ته‌له‌فریکی چیای کۆره‌ک)</item>
+        <item>هه‌وارگه‌ی پانکی گه‌شتیاری(شنگل بانه‌)</item>
+        <item>سه‌یرانگا و که‌پره‌کانی به‌رسیرین</item>
+        <item>سه‌یرانگا  و که‌پره‌کانی ناحیه‌ی وه‌رتێ</item>
+
+    </string-array>
+
+</resources>
